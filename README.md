@@ -1,6 +1,10 @@
 # PersonalizedChatBot
 A chatbot react according to your conversation and emotions! Also say byebye to the filter!
 
+# Updates
+1. Fixed json files decode problem
+2. New STT features(beta)
+
 # Introduction
 
 I build a simple web app which you can interact with the chatbot and the chatbot can remember the conversation and analysis emotions and though about the user!
