@@ -11,17 +11,20 @@ I build a simple web app which you can interact with the chatbot and the chatbot
 
 ## Other packages
 
-1. ollama(pip install ollama)
-2. flask(pip install flask)
-3. wtforms(pip install wtforms)
-4. pydantic(pip install pydantic)
-5. json(pip install json)
+1. ollama (pip install ollama)
+2. flask (pip install flask)
+3. wtforms (pip install wtforms)
+4. pydantic (pip install pydantic)
+5. PIL (pip install pillow)
+6. piper-tts (pip install piper-tts)
+7. playsound v.1.2.2 (pip install playsound==1.2.2)
 
 # Start-up
 
 1. Download this git as .zip file and extract it
-2. Run the webServer.py
-3. Go to website http://127.0.0.1:5000/ as localhost (may different for other device)
+2. Delete the deleteme.txt in input,output,UploadFiles folder
+3. Run the webServer.py
+4. Go to website http://127.0.0.1:5000/ as localhost (may different for other device)
 
 # Usage
 
@@ -31,10 +34,8 @@ Chat with the bot in the index page or homepage or click the chat text on the na
 ## Settings
 Click the setting text on the navbar or go to settings.html to change the settings of the chatbot
 
-### All the settings
-1. Character name: set the name for the chatbot
-2. Model selection: set the LLM for the conversation(we recommended to use these LLM for the best result: gemma3:4b(smaller model),llama3(bigger model))
-3. Character description: set the character description for the LLM
+# Special thanks
+Piper-tts,faster-whisper,ollama
 
 # License
 
