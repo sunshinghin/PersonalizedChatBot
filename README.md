@@ -1,7 +1,7 @@
 # PersonalizedChatBot
-A chatbot react according to your conversation and emotions! Also say byebye to the filter!
+A chatbot with RAG system web app!
 
-# Updates
+# Updates V3
 1. Fixed some webUI glitches
 2. New Realtime-STT feature(AI Assistant)
 3. Added the ability for chatbot to look at your screen
@@ -15,7 +15,10 @@ A chatbot react according to your conversation and emotions! Also say byebye to 
 
 # Introduction
 
-I build a simple web app which you can interact with the chatbot and the chatbot can remember the conversation and analysis emotions and though about the user!
+Hello! I am Anson.In the past few weeks,I build a small web app for people who want there LLM(chatbot) to be locally host and customizable!
+This web app implented its own memory(long-short term memory),personality and emotions system.
+I have try to make the hardware requirement for this web app to be as low as possible.But if you want a better experiment,it is recommended to use a good GPU(cuda) for this program.
+Have fun!
 
 # Requirement
 
