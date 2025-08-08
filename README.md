@@ -18,6 +18,8 @@ A chatbot with RAG system web app!
 Hello! I am Anson.In the past few weeks,I build a small web app for people who want there LLM(chatbot) to be locally host and customizable!
 This web app implented its own memory(long-short term memory),personality and emotions system.
 I have try to make the hardware requirement for this web app to be as low as possible.But if you want a better experiment,it is recommended to use a good GPU(cuda) for this program.
+This project is better to use a database like chroma but I think JSON files is better for representation.If you want,you can build your own database for this!
+
 Have fun!
 
 # Requirement
