@@ -1,0 +1,180 @@
+.scrollingLog {
+
+    width: 100%;
+    height: 60%;
+    overflow: scroll;
+    border: 2px, solid #58575760;
+    margin-top: 2rem;
+
+}
+
+.InputBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    width: 100%;
+}
+
+
+.CharacterState {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    
+
+}
+
+.CharacterName {
+    display: flex;
+    width: 30rem;
+    height: 5rem;
+    border: 3px solid #4d4d4d60;
+    margin-left: 20rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+
+}
+
+.EmotionState {
+    display: flex;
+    width: 30rem;
+    height: 5rem;
+    border: 3px solid #4d4d4d60;
+    margin-right: 20rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+
+
+
+.userquestion {
+    
+    max-width:50%;
+    min-width:150px;
+    background: #257bfdc2;
+    padding:2px;
+    margin:3px;
+    border-radius: 5px;
+    border:1px solid #1f76f8c2;
+    float:  left;
+    clear: left;
+    color: rgb(26, 26, 26);
+
+}
+
+.modelresponse {
+
+    max-width:50%;
+    min-width:150px;
+    background: #ffeec0;
+    padding:2px;
+    margin:3px;
+    border-radius: 5px;
+    border:1px solid #ffdd7c;
+    float:  left;
+    clear: left;
+    color: rgba(56, 56, 56, 0.849);
+}
+
+.char_input, 
+.char_desc,
+.thinking_model_name,
+.TTSmodelnameinput,
+.user_name_input,
+.clearbtn,
+.clearTTSwavsbtn,
+.STTmodelnameinput,
+.clearSTTwavsbtn,
+.vision_model_name,
+.RealtimeSTTmodelnameinput,
+.PngtuberBtn {
+
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+}
+
+.settingsubmitbtn {
+
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    
+}
+
+.settingsForm {
+
+    
+    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 35%;
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.FileUploadBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    
+}
+
+.clearfilesbtn {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 1rem;
+
+}
+
+.GeneralSettingText,
+.TTSSettingText,
+.STTSettingText,
+.TTSonoff,
+.RealtimeSTTSettingText,
+.PngtuberSettingText {
+
+    padding-top: 2rem;
+
+}
+
+#errorBox {
+
+    margin-top: 2rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.chatpageErrorBoxMargin {
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+
+}
