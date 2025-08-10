@@ -228,7 +228,7 @@ def pngtuber_window_process():
     #text setup
 
     dialog_rect = pygame.Rect(30, 400, 530, 180)  # Position and size of the dialog
-    font = pygame.font.Font("./All the training things/trainingstuffs/beachday.otf", 20)
+    font = pygame.font.Font(os.path.join(app.config["FONT_FOLDER"],"beachday.otf"), 20)
 
     appicon_image = pygame.image.load(appicon)
 
@@ -466,6 +466,7 @@ app.config['CUSTOMVOICEMODELS_FOLDER'] = "./CustomVoiceModels"
 app.config["VOICEMODELSOUTPUT_FOLDER"] = "./output"
 app.config["VOICEINPUT_FOLDER"] = "./input"
 app.config["SOUNDEFFECTS_FOLDER"] = "./SoundEffects"
+app.config["FONT_FOLDER"] = "./Font"
 
 #end
 
